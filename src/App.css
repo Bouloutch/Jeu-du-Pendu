@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 660px;
+}
+
+.keyboardHidden {
+  display: none;
+}
+
+.youWinHidden {
+  display: none;
+}
+
+.youWinVisible {
+  display: flex;
+  border: 1px grey solid;
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+} 
+
+.newGame {
+  border: 1px grey solid;
+  margin-top: 100px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.guess{
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  justify-content: space-between;
+  margin-bottom: 3em;
+  border: 0.1em grey dashed;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.pendu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.guessLetter {
+  font-size: 3em;
+}
+
+.reset {
+  border: 1px grey solid;
+  margin-top: 5px;
+  border-radius: 3px;
+  padding: 5px;
+}
